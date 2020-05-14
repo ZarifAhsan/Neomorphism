@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #dde1ee;
+}
+.container {
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #dde1ee;
+}
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #dde1ee;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #dde1ee;
+}
+.container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #dde1ee;
+}
+.container-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #dde1ee;
+}
+#text {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  text-shadow: 1.5px 1.5px 1.5px rgb(143, 139, 139);
+  padding: 5px;
+  text-align: center;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.neumorphism-1 {
+  display: flex;
+  margin: 25px 50px;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  background: linear-gradient(145deg, #dde1e700, #dde1e7);
+  border-radius: 7px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.neumorphism-1:hover {
+  box-shadow: inset -3px -3px 4px #ffffff73,
+    inset 3px 3px 3px rgba(94, 104, 121, 0.288);
+  text-shadow: none;
+}
+.neumorphism-1:active {
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 3px 5px rgba(94, 104, 121, 1);
+  text-shadow: none;
+  background: #dde1e700;
+  text-decoration-style: bold;
+}
+.neumorphism-2 {
+  display: flex;
+  margin: 25px 50px;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  background: linear-gradient(145deg, #dde1e700, #dde1e7);
+  border-radius: 50%;
+  text-shadow: none;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.neumorphism-2:hover {
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  text-shadow: 1.5px 1.5px 1.5px rgb(143, 139, 139);
+}
+.neumorphism-2:active {
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 3px 5px rgba(94, 104, 121, 1);
+  text-shadow: none;
+  background: #dde1e700;
+  text-decoration-style: bold;
+}
+.neumorphism-3 {
+  display: flex;
+  margin: 25px 50px;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  background: linear-gradient(145deg, #dde1e700, #dde1e7);
+  border-radius: 50%;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.neumorphism-3:hover {
+  box-shadow: inset -3px -3px 4px #ffffff73,
+    inset 3px 3px 3px rgba(94, 104, 121, 0.288);
+  text-shadow: none;
+}
+.neumorphism-3:active {
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 3px 5px rgba(94, 104, 121, 1);
+  text-shadow: none;
+  background: #dde1e700;
+  text-decoration-style: bold;
+}
+.neumorphism-4 {
+  display: flex;
+  margin: 25px 50px;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  background: linear-gradient(145deg, #dde1e700, #dde1e7);
+  border-radius: 7px;
+  text-shadow: 1px 1px 1px rgb(143, 139, 139);
+}
+.neumorphism-4:hover {
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  text-shadow: 1.5px 1.5px 1.5px rgb(143, 139, 139);
+}
+.neumorphism-4:active {
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 3px 5px rgba(94, 104, 121, 1);
+  text-shadow: none;
+  background: #dde1e700;
+  text-decoration-style: bold;
+}
+.neumorphism-5 {
+  display: flex;
+  margin: 25px 50px;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  background: linear-gradient(145deg, #dde1e700, #dde1e7);
+  border-radius: 7px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  position: relative;
+}
+.neumorphism-5:after {
+  content: "";
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  border-radius: 7px;
+  background: transparent;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.neumorphism-6 {
+  display: flex;
+  margin: 25px 50px;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  background: linear-gradient(145deg, #dde1e700, #dde1e7);
+  border-radius: 50%;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  position: relative;
+}
+.neumorphism-6:after {
+  content: "";
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.goup {
+  box-sizing: border-box;
+  display: inherit;
+  text-align: center;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: -20px;
+  bottom: 0;
+  margin: 25px 50px;
+  height: 40px;
+  width: 40px;
+  background: linear-gradient(145deg, #dde1e700, #dde1e7);
+  border-radius: 50%;
+  box-shadow: -3px -3px 4px #ffffff73, 3px 3px 4px rgba(94, 104, 121, 0.288);
+}
+.goup:hover {
+  box-shadow: inset -3px -3px 4px #ffffff73,
+    inset 3px 3px 3px rgba(94, 104, 121, 0.288);
+  text-shadow: none;
+}
+.goup:active {
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 3px 3px 5px rgba(94, 104, 121, 1);
+  text-shadow: none;
+  background: #dde1e700;
+  text-decoration-style: bold;
+}
